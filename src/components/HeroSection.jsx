@@ -1,3 +1,7 @@
+//import the profile
+import profile from '../assets/img/sample-profile.jpg';
+
+
 function HeroSection () {  
     return (
         <>  
@@ -10,7 +14,8 @@ function HeroSection () {
                 <div className="col-10 col-sm-8 col-lg-6 ">
                     {/* ++rounded Circle */}
                     {/* ++ height and width smaller and border outline*/}
-                    <img src="https://i.pinimg.com/564x/5a/72/49/5a7249c50b1e0cd4dad05707640332e6.jpg" className="border-outline d-block mx-auto img-fluid rounded-circle" alt="Bootstrap Themes" width="400" height="200" loading="lazy"/>
+                    {/* change the image */}
+                    <img src={profile} className="border-outline d-block mx-auto img-fluid rounded-circle" alt="Bootstrap Themes" width="400" height="200" loading="lazy"/>
                 </div>
                 {/* ++ text center */}
                 <div className="col-lg-6 text-center">
